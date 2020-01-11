@@ -1,0 +1,53 @@
+{
+    "name": "node-spider",
+    "version": "1.0.0",
+    "description": "node爬取世纪佳缘交友信息",
+    "main": "node 世纪佳缘 爬虫 交友 相亲",
+    "dependencies": {
+        "_adler-32@1.2.0@adler-32": "^1.2.0",
+        "_buffer-from@1.1.1@buffer-from": "^1.1.1",
+        "_cfb@1.1.3@cfb": "^1.1.3",
+        "_codepage@1.14.0@codepage": "^1.14.0",
+        "_commander@2.14.1@commander": "^2.14.1",
+        "_commander@2.17.1@commander": "^2.17.1",
+        "_commander@2.20.3@commander": "^2.20.3",
+        "_crc-32@1.2.0@crc-32": "^1.2.0",
+        "_exit-on-epipe@1.0.1@exit-on-epipe": "^1.0.1",
+        "_frac@1.1.2@frac": "^1.1.2",
+        "_node-xlsx@0.15.0@node-xlsx": "^0.15.0",
+        "_printj@1.1.2@printj": "^1.1.2",
+        "_ssf@0.10.2@ssf": "^0.10.2",
+        "_xlsx@0.14.5@xlsx": "^0.14.5",
+        "adler-32": "^1.2.0",
+        "axios": "^0.19.1",
+        "buffer-from": "^1.1.1",
+        "cfb": "^1.1.3",
+        "codepage": "^1.14.0",
+        "commander": "^2.20.3",
+        "crc-32": "^1.2.0",
+        "exit-on-epipe": "^1.0.1",
+        "frac": "^1.1.2",
+        "node-xlsx": "^0.15.0",
+        "printj": "^1.1.2",
+        "qs": "^6.9.1",
+        "ssf": "^0.10.2",
+        "xlsx": "^0.14.5"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "server": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/1006008051/node-spider.git"
+    },
+    "keywords": [
+        "node 世纪佳缘 爬虫 交友 相亲"
+    ],
+    "author": "王永存 <1006008051@qq.com>",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/1006008051/node-spider/issues"
+    },
+    "homepage": "https://github.com/1006008051/node-spider#readme"
+}
