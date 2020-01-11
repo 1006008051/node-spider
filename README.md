@@ -1,4 +1,5 @@
-# node爬虫实践：爬取世纪佳缘交友信息![node](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9kc3MwLmJhaWR1LmNvbS82T05Xc2ppcDBRSVo4dHlobnEvaXQvdT0yODIyODA2NTM5LDMwNjI1NDg1MDUmZm09ODUmYXBwPTc5JmY9SlBH?x-oss-process=image/format,png)
+# node爬虫实践：爬取世纪佳缘交友信息
+![node](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9kc3MwLmJhaWR1LmNvbS82T05Xc2ppcDBRSVo4dHlobnEvaXQvdT0yODIyODA2NTM5LDMwNjI1NDg1MDUmZm09ODUmYXBwPTc5JmY9SlBH?x-oss-process=image/format,png)
 自从node这一运行在服务端的 JavaScript横空出世以后，赋予了前端开发工程师强大的力量。文件I/O操作，连数据库写接口接口等等。我在刚开始学习的node的时候，尝试着爬了一个比较小的相亲网站2000多条交友信息，包括网名，年龄，图片，学历，工资等。今天在网上看了一个关于用Python爬取世纪佳缘的博客，兴趣使然，决定用node也试试效果。
 
 ## 爬取的战果
