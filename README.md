@@ -34,7 +34,7 @@
 
 `http://search.jiayuan.com/v2/search_v2.phpkey=&sex=f&stc=1:11,2:18.24,3:155.170,23:1&sn=default&sv=1&p=1&f=select`
 
-直接访问没有问题，改变p值访问也是O看的。
+直接访问没有问题，改变p值访问也是OK的。
 
 ![世纪佳缘请求url](https://img-blog.csdnimg.cn/20200111200937353.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dhbmcxMDA2MDA4MDUx,size_16,color_FFFFFF,t_70)
 ###### 获取网页内容
@@ -115,6 +115,9 @@ getInfoHttp = async(p) => {
 仔细看上面的代码你可能会发现，使用两个函数 writeXls为表格写入函数及downImg图片下载函数，代码如下
 
 ```javascript
+const fs = require("fs");
+const path = require("path");
+const xlsx = require('node-xlsx');
 /**
  * 写入信息到表格中
  * @param {string} name 表名称
@@ -140,4 +143,5 @@ downImg = (params) => {
 };
 ```
 大功告成，输入自己心仪的的条件，执行getInfoHttp函数即可找到自己想要的交友啦！
-[github地址：https://github.com/1006008051/node-spider.git](https://github.com/1006008051/node-spider.git)， 欢迎start
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200111213406738.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dhbmcxMDA2MDA4MDUx,size_16,color_FFFFFF,t_70)
+[博客地址：https://blog.csdn.net/wang1006008051/article/details/103940409](https://blog.csdn.net/wang1006008051/article/details/103940409)， 欢迎关注
